@@ -12,7 +12,10 @@
 #include "Helpers/PCGHelpers.h"
 
 #include "Math/RandomStream.h"
+
+THIRD_PARTY_INCLUDES_START
 #include "polylineoffset.hpp"
+THIRD_PARTY_INCLUDES_END
 
 #include UE_INLINE_GENERATED_CPP_BY_NAME(PCGCavalierOffsetPath)
 
