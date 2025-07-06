@@ -8,6 +8,8 @@ public class PCGCavalierContours : ModuleRules
 {
 	public PCGCavalierContours(ReadOnlyTargetRules Target) : base(Target)
 	{
+		bWarningsAsErrors = false;
+
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
 		PublicIncludePaths.AddRange(
